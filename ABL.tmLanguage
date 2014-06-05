@@ -175,7 +175,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i)(procedure)\s+([a-z0-9_-]+):</string>
+			<string>(?i)(procedure)\s+([a-z0-9_-]+)(\s+)?(public|private)?(\s+)?:</string>
 			<key>name</key>
 			<string>meta.function.source.abl</string>
 		</dict>
@@ -189,7 +189,7 @@
 				</dict>
 			</dict>
 			<key>match</key>
-			<string>(?i)(\{[a-z0-9_\./-]+)</string>
+			<string>(?i)(\{[&a-z0-9_\./-]+)</string>
 			<key>name</key>
 			<string>meta.function.bracket.abl</string>
 		</dict>
